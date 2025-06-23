@@ -190,8 +190,7 @@ namespace BLLSPA
         }
         public void LoadDuLieu()
         {
-            SpaDAL dal = new SpaDAL();
-            danhSach = dal.DocTuFileXML("DanhSachKhachHang.xml");
+            danhSach = dal.DocTuFileXML(filePath);
         }
     }
 }
